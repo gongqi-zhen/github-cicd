@@ -7,3 +7,11 @@ func EvenOrOdd(number int) string {
 		return "odd"
 	}
 }
+
+func Hoge(number int) string {
+	if number%2 == 0 {
+		return "even"
+	} else {
+		return "odd"
+	}
+}
